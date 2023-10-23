@@ -1,0 +1,36 @@
+1. Kapan kita harus menggunakan relational database atau nosql database ?
+Menggunakan Basis Data Relasional (RDBMS) adalah ketika yang kita butuhkan adalah :
+    1. Konsistensi Data yang Penting: Jika integritas data dan konsistensi adalah faktor krusial dalam aplikasi Anda, basis data relasional biasanya lebih diutamakan karena kemampuannya untuk menjamin konsistensi data.
+    2. Skema Data Stabil: Jika skema data sudah stabil dan tidak berubah secara signifikan, basis data relasional cenderung menjadi pilihan yang lebih baik karena memungkinkan penggunaan skema yang telah ditetapkan dengan jelas.
+    3. Transaksi Kompleks: Jika aplikasi Anda membutuhkan transaksi yang kompleks dan pengelolaan transaksi yang handal, basis data relasional menyediakan dukungan yang lebih kuat untuk operasi-transaksi ACID (Atomicity, Consistency, Isolation, Durability).
+
+Menggunakan Basis Data NoSQL adalah ketika yang kita butuhkan adalah:
+    1. Skalabilitas dan Kinerja yang Tinggi: Jika Anda perlu menangani volume data yang sangat besar dan membutuhkan skalabilitas horizontal yang tinggi, basis data NoSQL umumnya lebih cocok karena dapat dengan mudah diukur secara horizontal.
+    2. Data Semi-Struktur atau Tidak Terstruktur: Jika data yang Anda gunakan bersifat semi-struktur atau tidak terstruktur, basis data NoSQL dapat memberikan fleksibilitas yang lebih besar dalam menyimpan dan mengelola jenis data ini.
+    3. Aplikasi Berorientasi pada Dokumen atau Grafik: Jika aplikasi Anda berfokus pada penyimpanan dokumen yang kompleks atau struktur data yang berorientasi grafik, basis data NoSQL seperti MongoDB atau Neo4j dapat memberikan fitur yang lebih cocok untuk kebutuhan ini.    
+
+
+2. Apa perbedaan antara database, data lake, data warehouse, dan data mart ?
+    Database: Digunakan untuk menyimpan data terstruktur, diatur dalam skema yang telah ditentukan sebelumnya, dan digunakan untuk transaksi harian atau operasional.
+    Data Lake: Tempat penyimpanan data mentah dari berbagai sumber dalam format aslinya, yang biasanya bersifat semi-struktur atau tidak terstruktur, dan dirancang untuk analisis data yang mendalam dan lebih luas.
+    Data Warehouse: Digunakan untuk mengumpulkan data dari berbagai sumber untuk analisis bisnis dan pengambilan keputusan. Data warehouse mengintegrasikan data dari berbagai sumber dan memastikan konsistensi data.
+    Data Mart: Subdivisi dari data warehouse yang fokus pada satu topik atau fungsi tertentu, yang dibuat untuk memenuhi kebutuhan data tertentu dari departemen atau kelompok dalam organisasi.
+
+3. Jelaskan apa itu normalisasi database, dan normalisasikan tabel dibawah !
+Tabel Employee:
+| employee_id | employee_name | job_code | job              | city_code | city_name    | province_code | province_name |
+|-------------|---------------|----------|------------------|-----------|--------------|---------------|---------------|
+| 1           | John Smith    | 101      | Software Engineer| 201       | New York     | 301           | New York      |
+| 2           | Alice Johnson | 102      | Data Analyst     | 202       | Los Angeles  | 302           | California    |
+| 3           | Bob Davis     | 103      | Data Engineer    | 203       | Chicago      | 303           | Illinois      |
+| 4           | Emily Wilson  | 101      | Software Engineer| 204       | Houston      | 304           | Texas         |
+| 5           | Michael Lee   | 102      | Data Analyst     | 205       | Miami        | 305           | Florida       |
+| 6           | Sarah Brown   | 103      | Data Engineer    | 206       | Boston       | 306           | Massachusetts |
+| 7           | James Clark   | 101      | Software Engineer| 207       | San Francisco| 307           | California    |
+| 8           | Laura Taylor  | 102      | Data Analyst     | 208       | Seattle      | 308           | Washington    |
+| 9           | Daniel White  | 103      | Data Engineer    | 209       | Denver       | 309           | Colorado      |
+| 10          | Olivia Martin | 101      | Software Engineer| 210       | Atlanta      | 310           | Georgia       |
+Normalisasi adalah proses pengorganisasian basis data relasional untuk mengurangi redudansi dan ketergantungan data. Tujuannya adalah untuk mencapai efisiensi dan menghindari anomali data. 
+Dalam tabel tersebut, data bisa dinormalisasi dengan memisahkan informasi yang berulang ke dalam tabel yang terpisah.
+Misalnya, tabel terpisah untuk informasi kota dan provinsi dengan kunci yang sesuai untuk menghubungkannya dengan tabel karyawan. 
+Hal ini akan mengurangi redudansi data dan meningkatkan efisiensi penyimpanan.

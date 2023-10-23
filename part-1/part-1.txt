@@ -1,0 +1,32 @@
+1. Apa peran utama seorang Data Engineer dalam ekosistem data? Bagaimana peran ini berbeda dari Data Scientist dan Data Analyst? 
+Seorang Data Engineer (DE) bertanggung jawab untuk merancang, membangun, dan memelihara struktur data, serta
+mengumpulkan, membuat data pipeline dan menyimpan data yang diperlukan untuk analisis.
+DE juga mengelola infrastruktur data, memastikan ketersediaan data secara real-time, dan memastikan data tersedia untuk aplikasi analitik. 
+Peran ini berbeda dari Data Scientist dan Data Analyst karena Data Engineer fokus pada pemrosesan, penyimpanan, dan pengelolaan data yang kompleks, 
+sedangkan Data Scientist dan Data Analyst cenderung fokus pada analisis dan interpretasi data.
+
+2. Berikan beberapa contoh peran dari seorang Data Engineer yang mungkin bersinggungan atau bahkan sama dengan peran Data Scientist dan Data Analyst !
+
+Terdapat beberapa tugas atau peran yang bisa bersinggungan antara seorang Data Engineer, Data Scientist, dan Data Analyst dalam lingkup pekerjaan mereka, terutama dalam konteks analisis data.
+Berikut adalah beberapa contoh peran yang mungkin sering ditemukan:
+    Pembersihan Data (Data Cleaning): Data Engineer, Data Scientist, dan Data Analyst masing-masing terlibat dalam proses membersihkan dan mempersiapkan data agar dapat digunakan untuk analisis yang lebih mendalam. Mereka memastikan keakuratan, keutuhan, dan konsistensi data.
+    Pengolahan Data (Data Processing): Semua tiga peran ini terlibat dalam pengolahan data, baik untuk memfilter, menggabungkan, memformat, atau mengubah data agar sesuai dengan kebutuhan analisis atau sistem yang diterapkan.
+    Manajemen Basis Data (Database Management): Data Engineer bertanggung jawab untuk merancang dan memelihara infrastruktur basis data yang diperlukan untuk menyimpan data secara efisien. Data Scientist dan Data Analyst juga dapat terlibat dalam memahami struktur basis data dan menentukan cara terbaik untuk mengakses dan menganalisis data.
+    Pengembangan Pipeline Data (Data Pipeline Development): Data Engineer bertanggung jawab untuk membangun dan mengelola pipeline data yang memungkinkan aliran data yang mulus dari berbagai sumber. Data Scientist dan Data Analyst juga dapat memanfaatkan pipeline data ini untuk mengakses data yang mereka butuhkan.
+    Pemodelan Data (Data Modeling): Data Engineer dapat membantu dalam merancang dan membangun model data yang diperlukan untuk menyimpan dan mengelola data secara efisien. Data Scientist dan Data Analyst kemudian dapat menggunakan model ini untuk analisis, pemodelan, dan visualisasi data.
+    Optimisasi Kinerja (Performance Optimization): Data Engineer bekerja untuk mengoptimalkan kinerja sistem data agar dapat menangani volume data yang besar dan meningkatkan efisiensi pengambilan data. Data Scientist dan Data Analyst juga membutuhkan sistem yang dioptimalkan untuk mendukung analisis data yang cepat dan akurat.
+
+3. Jelaskan langkah-langkah proses ETL dan ELT yang berperan dalam pekerjaan seorang data engineer !
+Proses ETL (Extract, Transform, Load) dan ELT (Extract, Load, Transform) dalam Pekerjaan Seorang Data Engineer:
+ETL (Extract, Transform, Load):
+
+    Ekstraksi (Extract): Proses pengambilan data dari sumber yang berbeda, seperti basis data, file, atau aplikasi.
+    Transformasi (Transform): Proses pembersihan, transformasi, dan penyatuan data mentah menjadi format yang sesuai dan siap untuk analisis.
+    Pemuatan (Load): Proses memasukkan data yang telah diubah ke dalam sistem penyimpanan data yang dituju, seperti data warehouse atau database.
+
+ELT (Extract, Load, Transform):
+
+    Ekstraksi (Extract): Proses pengambilan data mentah dari berbagai sumber.
+    Pemuatan (Load): Proses memuat data mentah ke dalam penyimpanan data sementara atau penyimpanan data utama.
+    Transformasi (Transform): Proses transformasi data yang dilakukan setelah data dimuat ke penyimpanan data, menggunakan alat analitik atau query untuk 
+                              memperoleh wawasan dan informasi dari data tersebut.

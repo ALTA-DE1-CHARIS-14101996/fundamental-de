@@ -32,5 +32,5 @@ Tabel Employee:
 | 10          | Olivia Martin | 101      | Software Engineer| 210       | Atlanta      | 310           | Georgia       |
 Normalisasi adalah proses pengorganisasian basis data relasional untuk mengurangi redudansi dan ketergantungan data. Tujuannya adalah untuk mencapai efisiensi dan menghindari anomali data. 
 Dalam tabel tersebut, data bisa dinormalisasi dengan memisahkan informasi yang berulang ke dalam tabel yang terpisah.
-Misalnya, tabel terpisah untuk informasi kota dan provinsi dengan kunci yang sesuai untuk menghubungkannya dengan tabel karyawan. 
+Misalnya, tabel terpisah untuk informasi kota dan provinsi dengan key yang sesuai untuk menghubungkannya dengan tabel karyawan. 
 Hal ini akan mengurangi redudansi data dan meningkatkan efisiensi penyimpanan.

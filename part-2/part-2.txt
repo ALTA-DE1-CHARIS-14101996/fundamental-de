@@ -9,7 +9,6 @@ Menggunakan Basis Data NoSQL adalah ketika yang kita butuhkan adalah:
     2. Data Semi-Struktur atau Tidak Terstruktur: Jika data yang Anda gunakan bersifat semi-struktur atau tidak terstruktur, basis data NoSQL dapat memberikan fleksibilitas yang lebih besar dalam menyimpan dan mengelola jenis data ini.
     3. Aplikasi Berorientasi pada Dokumen atau Grafik: Jika aplikasi Anda berfokus pada penyimpanan dokumen yang kompleks atau struktur data yang berorientasi grafik, basis data NoSQL seperti MongoDB atau Neo4j dapat memberikan fitur yang lebih cocok untuk kebutuhan ini.    
 
-
 2. Apa perbedaan antara database, data lake, data warehouse, dan data mart ?
     Database: Digunakan untuk menyimpan data terstruktur, diatur dalam skema yang telah ditentukan sebelumnya, dan digunakan untuk transaksi harian atau operasional.
     Data Lake: Tempat penyimpanan data mentah dari berbagai sumber dalam format aslinya, yang biasanya bersifat semi-struktur atau tidak terstruktur, dan dirancang untuk analisis data yang mendalam dan lebih luas.
@@ -32,5 +31,4 @@ Tabel Employee:
 | 10          | Olivia Martin | 101      | Software Engineer| 210       | Atlanta      | 310           | Georgia       |
 Normalisasi adalah proses pengorganisasian basis data relasional untuk mengurangi redudansi dan ketergantungan data. Tujuannya adalah untuk mencapai efisiensi dan menghindari anomali data. 
 Dalam tabel tersebut, data bisa dinormalisasi dengan memisahkan informasi yang berulang ke dalam tabel yang terpisah.
-Misalnya, tabel terpisah untuk informasi kota dan provinsi dengan key yang sesuai untuk menghubungkannya dengan tabel karyawan. 
-Hal ini akan mengurangi redudansi data dan meningkatkan efisiensi penyimpanan.
+Misalnya, tabel terpisah untuk informasi kota dan provinsi dengan key yang sesuai untuk menghubungkannya dengan tabel karyawan. Hal ini akan mengurangi redudansi data dan meningkatkan efisiensi penyimpanan.

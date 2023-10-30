@@ -1,9 +1,7 @@
 1. Apa peran utama seorang Data Engineer dalam ekosistem data? Bagaimana peran ini berbeda dari Data Scientist dan Data Analyst? 
-Seorang Data Engineer (DE) bertanggung jawab untuk merancang, membangun, dan memelihara struktur data, serta
-mengumpulkan, membuat data pipeline dan menyimpan data yang diperlukan untuk analisis.
+Seorang Data Engineer (DE) bertanggung jawab untuk merancang, membangun, dan memelihara struktur data, serta mengumpulkan, membuat data pipeline dan menyimpan data yang diperlukan untuk analisis.
 DE juga mengelola infrastruktur data, memastikan ketersediaan data secara real-time, dan memastikan data tersedia untuk aplikasi analitik. 
-Peran ini berbeda dari Data Scientist dan Data Analyst karena Data Engineer fokus pada pemrosesan, penyimpanan, dan pengelolaan data yang kompleks, 
-sedangkan Data Scientist dan Data Analyst cenderung fokus pada analisis dan interpretasi data.
+Peran ini berbeda dari Data Scientist dan Data Analyst karena Data Engineer fokus pada pemrosesan, penyimpanan, dan pengelolaan data yang kompleks,sedangkan Data Scientist dan Data Analyst cenderung fokus pada analisis dan interpretasi data.
 
 2. Berikan beberapa contoh peran dari seorang Data Engineer yang mungkin bersinggungan atau bahkan sama dengan peran Data Scientist dan Data Analyst !
 
@@ -19,14 +17,11 @@ Berikut adalah beberapa contoh peran yang mungkin sering ditemukan:
 3. Jelaskan langkah-langkah proses ETL dan ELT yang berperan dalam pekerjaan seorang data engineer !
 Proses ETL (Extract, Transform, Load) dan ELT (Extract, Load, Transform) dalam Pekerjaan Seorang Data Engineer:
 ETL (Extract, Transform, Load):
-
-    Ekstraksi (Extract): Proses pengambilan data dari sumber yang berbeda, seperti basis data, file, atau aplikasi.
+    Ekstraksi (Extract): Proses pengambilan data mentah dari berbagai sumber.
     Transformasi (Transform): Proses pembersihan, transformasi, dan penyatuan data mentah menjadi format yang sesuai dan siap untuk analisis.
-    Pemuatan (Load): Proses memasukkan data yang telah diubah ke dalam sistem penyimpanan data yang dituju, seperti data warehouse atau database.
+    Pemuatan (Load): Proses memasukkan data yang telah diubah sedemikian rupa ke dalam sistem penyimpanan data yang dituju, seperti data warehouse atau database.
 
 ELT (Extract, Load, Transform):
-
     Ekstraksi (Extract): Proses pengambilan data mentah dari berbagai sumber.
     Pemuatan (Load): Proses memuat data mentah ke dalam penyimpanan data sementara atau penyimpanan data utama.
-    Transformasi (Transform): Proses transformasi data yang dilakukan setelah data dimuat ke penyimpanan data, menggunakan alat analitik atau query untuk 
-                              memperoleh wawasan dan informasi dari data tersebut.
+    Transformasi (Transform): Proses transformasi data yang dilakukan setelah data dimuat ke penyimpanan data, menggunakan alat analitik atau query untuk memperoleh wawasan dan informasi dari data tersebut.
